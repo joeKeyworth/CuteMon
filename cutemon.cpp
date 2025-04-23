@@ -658,6 +658,8 @@ CuteMon::CuteMon(QWidget *parent)
     g_ui = ui;
     getNetInfo();
 
+    CuteMon::setWindowIcon(QIcon("CuteMon.ico"));
+
     QFile configFile("config.txt");
     if(!configFile.open(QIODevice::ReadOnly)){
         qDebug() << "config failed to open...";

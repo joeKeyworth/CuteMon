@@ -1840,5 +1840,5 @@ C:/Users/josep/Documents/GitHub/CuteMon/qcustomplot.h
  mdp:C:/Users/josep/Documents/GitHub/CuteMon/qcustomplot.h
 C:/Users/josep/Documents/GitHub/CuteMon/cutemon.cpp
  uic:./ui_cutemon.h
-C:/Users/josep/Documents/GitHub/CuteMon/qcustomplot.cpp
 C:/Users/josep/Documents/GitHub/CuteMon/main.cpp
+C:/Users/josep/Documents/GitHub/CuteMon/qcustomplot.cpp

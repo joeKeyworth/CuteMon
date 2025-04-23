@@ -486,7 +486,11 @@
    </palette>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>CuteMon</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>CuteMon.ico</normaloff>CuteMon.ico</iconset>
   </property>
   <property name="styleSheet">
    <string notr="true">background-color:rgb(40, 40, 40)</string>

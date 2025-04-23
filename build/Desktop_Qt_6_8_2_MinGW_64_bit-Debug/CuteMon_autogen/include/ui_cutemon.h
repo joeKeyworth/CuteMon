@@ -10,6 +10,7 @@
 #define UI_CUTEMON_H
 
 #include <QtCore/QVariant>
+#include <QtGui/QIcon>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QFormLayout>
 #include <QtWidgets/QFrame>
@@ -25,7 +26,6 @@
 #include <QtWidgets/QTreeWidget>
 #include <QtWidgets/QVBoxLayout>
 #include <QtWidgets/QWidget>
-
 
 QT_BEGIN_NAMESPACE
 
@@ -254,6 +254,9 @@ public:
         palette.setBrush(QPalette::Disabled, QPalette::ToolTipBase, brush3);
         palette.setBrush(QPalette::Disabled, QPalette::Accent, brush9);
         CuteMon->setPalette(palette);
+        QIcon icon;
+        icon.addFile(QString::fromUtf8("CuteMon.ico"), QSize(), QIcon::Mode::Normal, QIcon::State::Off);
+        CuteMon->setWindowIcon(icon);
         CuteMon->setStyleSheet(QString::fromUtf8("background-color:rgb(40, 40, 40)"));
         centralwidget = new QWidget(CuteMon);
         centralwidget->setObjectName("centralwidget");
@@ -1552,7 +1555,7 @@ public:
 
     void retranslateUi(QMainWindow *CuteMon)
     {
-        CuteMon->setWindowTitle(QCoreApplication::translate("CuteMon", "MainWindow", nullptr));
+        CuteMon->setWindowTitle(QCoreApplication::translate("CuteMon", "CuteMon", nullptr));
         o_cpuName->setText(QCoreApplication::translate("CuteMon", "Ryzen 5 5500", nullptr));
         o_coreCount->setText(QCoreApplication::translate("CuteMon", "12 Cores", nullptr));
         label_3->setText(QCoreApplication::translate("CuteMon", "Usage", nullptr));

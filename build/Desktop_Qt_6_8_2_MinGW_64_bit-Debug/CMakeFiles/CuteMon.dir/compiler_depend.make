@@ -2353,6 +2353,7 @@ CMakeFiles/CuteMon.dir/cutemon.cpp.obj: C:/Users/josep/Documents/GitHub/CuteMon/
   C:/Qt/6.8.2/mingw_64/include/QtGui/QAction \
   C:/Qt/6.8.2/mingw_64/include/QtGui/QActionGroup \
   C:/Qt/6.8.2/mingw_64/include/QtGui/QFileSystemModel \
+  C:/Qt/6.8.2/mingw_64/include/QtGui/QIcon \
   C:/Qt/6.8.2/mingw_64/include/QtGui/QMatrix4x4 \
   C:/Qt/6.8.2/mingw_64/include/QtGui/QMouseEvent \
   C:/Qt/6.8.2/mingw_64/include/QtGui/QPaintDevice \
@@ -7424,6 +7425,8 @@ CuteMon_autogen/EWIEGA46WW/moc_cutemon.cpp:
 CuteMon_autogen/EWIEGA46WW/moc_qcustomplot.cpp:
 
 C:/Qt/6.8.2/mingw_64/include/QtCore/QLineF:
+
+C:/Qt/6.8.2/mingw_64/include/QtGui/QIcon:
 
 C:/Qt/6.8.2/mingw_64/include/QtWidgets/QApplication:
 

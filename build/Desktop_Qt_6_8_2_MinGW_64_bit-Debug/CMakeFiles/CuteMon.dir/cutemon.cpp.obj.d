@@ -1203,6 +1203,7 @@ CMakeFiles/CuteMon.dir/cutemon.cpp.obj: \
  C:/Qt/6.8.2/mingw_64/include/QtCore/QTimeZone \
  C:/Qt/6.8.2/mingw_64/include/QtCore/QTimer \
  C:/Users/josep/Documents/GitHub/CuteMon/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/CuteMon_autogen/include/ui_cutemon.h \
+ C:/Qt/6.8.2/mingw_64/include/QtGui/QIcon \
  C:/Qt/6.8.2/mingw_64/include/QtWidgets/QApplication \
  C:/Qt/6.8.2/mingw_64/include/QtWidgets/QFormLayout \
  C:/Qt/6.8.2/mingw_64/include/QtWidgets/QFrame \

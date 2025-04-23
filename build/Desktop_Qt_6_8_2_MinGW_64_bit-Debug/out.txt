@@ -14,9 +14,9 @@ There is 1 interface on the system:
     Cipher                 : CCMP
     Connection mode        : Auto Connect
     Channel                : 48
-    Receive rate (Mbps)    : 351
-    Transmit rate (Mbps)   : 585
-    Signal                 : 88% 
+    Receive rate (Mbps)    : 585
+    Transmit rate (Mbps)   : 526.5
+    Signal                 : 89% 
     Profile                : PalaceWireless 
 
     Hosted network status  : Not available
