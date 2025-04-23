@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\CuteMon.dir/objects.a
+C:\Qt\Tools\mingw1310_64\bin\ar.exe qc CMakeFiles\CuteMon.dir/objects.a @CMakeFiles\CuteMon.dir\objects1.rsp
+C:\Qt\Tools\mingw1310_64\bin\g++.exe -DQT_QML_DEBUG -g -mwindows -Wl,--whole-archive CMakeFiles\CuteMon.dir/objects.a -Wl,--no-whole-archive -o CuteMon.exe -Wl,--out-implib,libCuteMon.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\CuteMon.dir\linkLibs.rsp
